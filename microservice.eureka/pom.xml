@@ -7,15 +7,11 @@
 		<artifactId>SpringMicroservices</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-
-	<groupId>com.example</groupId>
-	<artifactId>Microservice-gateway</artifactId>
+	<groupId>com.microservice.eureka</groupId>
+	<artifactId>microservice.eureka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
-
-	<name>Microservice-gateway</name>
-	<description>Spring Microservice-gateway</description>
-
+	<name>microservice.eureka</name>
+	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -44,11 +40,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-gateway-mvc</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
 
 		<dependency>
